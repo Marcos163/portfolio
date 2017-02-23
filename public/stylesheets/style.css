@@ -1,0 +1,30 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: black;
+}
+
+header {
+  padding: 1em;
+  color: white;
+  background-color: black;
+  clear: right;
+  text-align: center;
+}
+
+#circle-img {
+  float: left;
+}
+
+.circle-img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  transition: width 2s, height 2s;
+}
+
+.circle-img:hover{
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+}
